@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_student_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roopan.stuconnect.StudentHome">
+
+    <include layout="@layout/tool" android:id="@+id/stuhometool"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/linear"
+        android:layout_below="@+id/stuhometool"
+        android:gravity="center"
+        android:layout_height="450dp">
+
+        <TextView
+            android:text="Sign Yourself"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stuhomeText"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailText"
+            android:background="@drawable/textview"
+            android:layout_margin="20dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:hint="Email Address"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:background="@drawable/textview"
+            android:ems="10"
+            android:id="@+id/passText"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_margin="20dp"
+            android:padding="10dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="70dp">
+
+            <Button
+                android:text="Sign IN"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:id="@+id/signInbutton"
+                android:background="@drawable/button"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:layout_marginRight="5dp"
+                android:padding="13dp" />
+
+            <Button
+                android:text="Sign UP"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:id="@+id/Registerbutton"
+                android:background="@drawable/button"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:padding="13dp" />
+        </TableRow>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/linear"
+        android:orientation="horizontal"
+        android:layout_marginLeft=".5dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/fblogin"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:layout_height="match_parent"
+            />
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:buttonSize="wide"/>
+    </LinearLayout>
+
+</RelativeLayout>

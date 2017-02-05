@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "489070840742",
+    "firebase_url": "https://stuconnect-152516.firebaseio.com",
+    "project_id": "stuconnect-152516",
+    "storage_bucket": "stuconnect-152516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489070840742:android:d0cc8b0079e1a825",
+        "android_client_info": {
+          "package_name": "com.example.roopan.stuconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489070840742-fvc5ad6l3ngbbjdnnn13nmrl3qq59ik5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roopan.stuconnect",
+            "certificate_hash": "95842FB9824D723B6DCDCC5C4F5E822C2B1DE8A4"
+          }
+        },
+        {
+          "client_id": "489070840742-r9f14cvdeihdfo05cth8109c4jdiqnk8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "489070840742-ntrumm11t3g4c3aoci117a3e538jsb6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsnWpt3IJt-sCrk5E8UrYEZVRGN2_1Qx8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489070840742-r9f14cvdeihdfo05cth8109c4jdiqnk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

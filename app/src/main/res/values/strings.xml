@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">StuConnect</string>
+    <string name="stu_home">StuConnect - Student</string>
+    <string name="auth_home">StuConnect - Authority</string>
+    <string name="reg_student">Registration - Student</string>
+    <string name="menu_home">Home</string>
+    <string name="facebook_app_id">1683253815253422</string>
+    <string name="api_key">AIzaSyDXOVbUlk6x5J12tAsI2hcQT8mbcZTSx54</string>
+    <string name="token_id">489070840742-r9f14cvdeihdfo05cth8109c4jdiqnk8.apps.googleusercontent.com</string>
+    <string name="fb_login_protocol_scheme">fb1683253815253422</string>
+    <string name="menu_friends">Friends</string>
+    <string name="menu_logout">Sign Out</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textFr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friends"
+        android:layout_marginTop="3dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_below="@id/textFr"
+        android:id="@+id/img"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/userfriends"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"/>
+    <!--<LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/friendListLinear"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+
+        &lt;!&ndash;<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:text="Friend List"
+            android:textSize="20dp"/>&ndash;&gt;
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:id="@+id/eachFriend"
+            android:orientation="horizontal">
+            &lt;!&ndash;<TextView
+                android:id="@+id/friendName"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:background="@drawable/mapicon"
+                android:id="@+id/mapIconButton"
+                />&ndash;&gt;
+        </LinearLayout>
+
+
+    <View
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/lineSeperator"
+        android:background="#CECECE"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />-->
+
+    <ListView
+        android:layout_below="@id/img"
+        android:layout_marginTop="10dp"
+        android:id="@+id/friendList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+
+</RelativeLayout>

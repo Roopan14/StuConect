@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_auth_newsfeed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roopan.stuconnect.AuthNewsfeed">
+
+    <include layout="@layout/tool" android:id="@+id/authnewstool"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        design:itemBackground="@color/colorPrimary"
+        design:itemTextColor="@color/white"
+        design:itemIconTint="@color/white"
+        design:menu="@menu/bottom_nav_items" />
+
+    <FrameLayout
+        android:id="@+id/frame_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/navigation"
+        android:layout_below="@id/authnewstool"
+        ></FrameLayout>
+
+</RelativeLayout>

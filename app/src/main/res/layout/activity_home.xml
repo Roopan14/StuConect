@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roopan.stuconnect.HomeActivity">
+
+<include layout="@layout/tool"
+    android:id="@+id/hometool">
+</include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/hometool"
+        android:gravity="center">
+
+        <TextView
+            android:text="Stay Connected !"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/headtextView"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_margin="20dp" />
+
+        <TextView
+            android:text="Pick Yourself"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/picktextView"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_margin="20dp" />
+
+        <Button
+            android:text="Student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/studentButton"
+            android:background="@drawable/button"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:textSize="20sp"
+            android:padding="13dp" />
+
+        <Button
+            android:text="Authority"
+            android:layout_height="wrap_content"
+            android:id="@+id/authButton"
+            android:background="@drawable/button"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:padding="13dp"
+            android:layout_marginBottom="30dp" />
+    </LinearLayout>
+
+</RelativeLayout>

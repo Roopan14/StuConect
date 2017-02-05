@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roopan.stuconnect.ChatActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:weightSum="5"
+        android:id="@+id/chat"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <EditText
+            android:layout_weight="4"
+            android:layout_alignParentBottom="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/chatedittext"
+            android:textSize="16dp"
+             />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/chatsend"
+            android:text="Send"
+            android:textSize="16dp"
+            />
+
+    </LinearLayout>
+
+    <ListView
+
+        android:layout_above="@id/chat"
+        android:id="@+id/chatlinear"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+
+</RelativeLayout>
